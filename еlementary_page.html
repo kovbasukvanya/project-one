@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="uk">
 <head>
@@ -12,10 +11,10 @@
 </head>
 <body>
 <h1>Заголовок</h1>
-<img src="img/logo.jpg" >
-    <main>
-        Вміст сторінки
-    </main>
+<img src="img/logo.jpg">
+<main>
+    Вміст сторінки
+</main>
 
 <ol>
 
@@ -30,9 +29,96 @@
     <li>Сторінка девять</li>
 </ol>
 <img src="./img/gif.gif" alt="кінь біжит">
+<p title="підказка">Текст відображення</p>
+<button type="button">Открыть модальное окно</button>
+
+<figure>
+    <figcaption>Текст пояснения который будет под изображением</figcaption>
+    <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+    <img src="./img/gif.gif" alt="кінь біжит">
+</figure>
+
+<table>
+    <thead>
+    <tr>
+        <th>Облачный сервис</th>
+        <th>Использование</th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>Пользователи</th>
+        <th>Посещений</th>
+        <th>Объём</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Google</td>
+        <td>12000</td>
+        <td>307000</td>
+        <td>1000 Tb</td>
+    </tr>
+    <tr>
+        <td>Amazon</td>
+        <td>9000</td>
+        <td>200500</td>
+        <td>800 Tb</td>
+    </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+    <tr>
+        <th rowspan="2" style="border: 1px solid #000000; padding: 5px;">Облачный сервис</th>
+        <th colspan="3" style="border: 1px solid #000000; padding: 5px; ">Использование</th>
+    </tr>
+    <tr>
+        <th style="border: 1px solid #000000; padding: 5px;">Пользователи</th>
+        <th style="border: 1px solid #000000; padding: 5px;">Посещений</th>
+        <th style="border: 1px solid #000000; padding: 5px;">Объём</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style="border: 1px solid #000000; padding: 5px;">Google</td>
+        <td style="border: 1px solid #000000; padding: 5px;">12000</td>
+        <td style="border: 1px solid #000000; padding: 5px;">307000</td>
+        <td style="border: 1px solid #000000; padding: 5px;">1000 Tb</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000000; padding: 5px;">Amazon</td>
+        <td style="border: 1px solid #000000; padding: 5px;">9000</td>
+        <td style="border: 1px solid #000000; padding: 5px;">200500</td>
+        <td style="border: 1px solid #000000; padding: 5px;">800 Tb</td>
+    </tr>
+    </tbody>
+</table>
+    <p>
+  Последние новости на <time datetime="2019-12-15">14 декабря 2019 года</time>.
+</p>
+
+<p>
+  Заседание состоялось в <time datetime="2018-07-14T11:30">11:30 утра</time>.
+</p>
+<p>текст 1 <strong>текст для вилілення</strong> Текст2 <b>Текст3</b> Текс4 </p>
+<p>текст 1 <em>текст для вилілення</em> Текст2 <i>Текст3</i> Текс4 </p>
+
+<video src="http://techslides.com/demos/sample-videos/small.webm" poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls autoplay loop preload="auto" ></video>
+
+
+<video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls > <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" /> <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" /> <source src="http://techslides.com/demos/sample-videos/small.ogg" type="video/ogg" /> </video>
+
+
+<audio src="song.mp3" controls autoplay loop preload="auto"></audio>
+
+<audio controls> <source src="song.mp3" type="audio/mp3" /> <source src="song.ogg" type="audio/ogg" /></audio>
 
 
 
 
+</tfoot>
 </body>
 </html>
