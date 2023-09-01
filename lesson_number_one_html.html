@@ -4,28 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Перший Урок</title>
+    <link rel="stylesheet" href="./css/styles1.css" >
+
+
       <a href="./index.html">Головна сторінка</a>
     <a href="./lesson_number_two_html.html">Урок номер два html</a>
-
+    <a href="#footer" class= "test-link">Контакти</a>
   </head>
-  <body>
+  <body class="page">
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="/">
-          <img src="./img/logo_1.svg" alt="Логотип компании" />
+        <a href="/" class="logo">
+          <img src="./img/logo_1.svg" alt="Логотип компании"  />
           photo
         </a>
 
-
-        <ul>
-          <li><a href="">Features</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Community</a></li>
-          <li><a href="/support.html">Support</a></li>
+<!--варіант один-->
+<!--        <ul class="reset site-nav">-->
+<!--          <li><a href="">Features</a></li>-->
+<!--          <li><a href="">Pricing</a></li>-->
+<!--          <li><a href="">Community</a></li>-->
+<!--          <li><a href="/support.html">Support</a></li>-->
+<!--        </ul>-->
+        <!--варіант два-->
+        <ul class="reset site-nav list">
+          <li><a href="" class="linc">Features</a></li>
+          <li><a href="" class="linc">Pricing</a></li>
+          <li><a href="" class="linc">Community</a></li>
+          <li><a href="" class="linc">Support</a></li>
         </ul>
 
-        <ul>
+        <ul class="reset">
           <li><a href="">Log in</a></li>
           <li><a href="">Register</a></li>
         </ul>
@@ -34,14 +44,14 @@
 
     <main>
       <!-- Герой -->
-      <section>
-        <h1>The largest community of photo enthusiasts</h1>
+      <section class="section">
+        <h1 class="section-titel">The largest community of photo enthusiasts</h1>
         <a href="">Join today</a>
       </section>
 
       <!-- Преимущества -->
-      <section>
-        <h2>Snap photos and share like <br />never before</h2>
+      <section class="section">
+        <h2 class="section-titel">Snap photos and share like <br />never before</h2>
 
         <ul>
           <li>
@@ -84,8 +94,8 @@
       </section>
 
       <!-- Примеры работ -->
-      <section>
-        <h2>Примеры работ</h2>
+      <section class="section">
+        <h2 class="section-titel">Примеры работ</h2>
 
         <ul>
           <li>
@@ -110,8 +120,8 @@
       </section>
 
       <!-- Testimonials -->
-      <section>
-        <h2>You’re in good company</h2>
+      <section class="section">
+        <h2 class="section-titel">You’re in good company</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
@@ -160,7 +170,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <p>Текст реклами призиву</p>
         <div>
         <a href="">силка один</a>
@@ -171,7 +181,7 @@
     </main>
 
     <!-- Футер -->
-    <footer>
+    <footer id="footer">
       <ul>
         <li><a href=""> Текст1</a></li>
         <li><a href=""> Текст1</a></li>
