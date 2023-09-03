@@ -15,12 +15,34 @@
 /*letter-spacing: 0.42px;}*/
 
 /*ul {list-style: none}*/
+/*встановлення пераміних*/
 
-.page { background-color: #ffffff;
-    color: rgb(0,0,0,0.8)
+/*body {*/
+/*  background-image: url(/img/logo.jpg);*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center center;*/
+/*  background-attachment: fixed;*/
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+/*  background-size: cover;*/
+/*}*/
+:root{ --color-one: rgb(0,0,0,0.8);
+       --color-two: #ffffff;
+     --color-three: green;
+      --color-four: gray;
+      --color-five: yellow;
+    --color-six: blue;}    /*    #18a0fb}*/
+body {
+background-image: url(/img/logo.jpg);}
+/*}*/
+
+
+.page { background-color: var(--color-two);
+    color: var(--color-one);
 }
 
-.logo { color: #000000 }
+.logo { color: var(--color-one) }
 
 .reset { list-style: none }
 
@@ -29,7 +51,61 @@
 /*.site-nav a:hover, a:focus  { color: #000000 }*/
 /*варіант два*/
 
- .site-nav .list {color: #18a0fb}
-.site-nav .linc:hover, .linc:focus {color: #000000}
+ .site-nav .list {color: var(--color-three)}
+.site-nav .linc:hover, .linc:focus {color: var(--color-one)}
 
-.section-titel {color: #18a0fb}
+.section-titel {color:var(--color-three)}
+.work-examples .titel {color: var(--color-three)}
+
+.button {color: var(--color-two);
+ background-color: var(--color-six);
+    width: 300px;
+/*border-style: solid;*/
+/*    border-color: var(--color-one);*/
+
+/*  border-width: 200px;*/
+/*height: 50px;*/
+    border: 2px solid var(--color-one);
+  border-radius: 5px;
+/*border-style: outset;*/
+/*    border-block-color: var(--color-one)*/
+/*         width: 200px;*/
+/*height: 50px;*/
+/*flex-shrink: 0;*/
+/*border-radius: 4px;*/
+
+/*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+.button-one {color: var(--color-six);
+ background-color: var(--color-two)
+border: 2px solid #4CAF50}
+
+.button-two {color: var(--color-two);
+ background-color: var(--color-six)
+border: 2px solid #4CAF50}
+/*ul.hu {*/
+
+/*position: -webkit-sticky; *//* Safari */
+/*  position: sticky;*/
+/*  top: 0;*/
+
+}
+
+li.hr {
+    display: inline;
+/*float: left;*/
+}
+
+/*a {*/
+/*  display: block;*/
+/*  padding: 20px;*/
+
+/*}*/
+
+        .button3 {background-color:aqua ;} /* Red */
+.current-page {color: limegreen;}
