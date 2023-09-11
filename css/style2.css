@@ -1,0 +1,75 @@
+:root{ --color-logo: #2196F3;
+    --color-text-logo: #212121;
+    --color-banner: #2F303A;
+    --color-text-banner: #FFF;
+    --color-text: #757575;
+    --color-text-footer: rgba(255, 255, 255, 0.60);
+    --color-secondary-color: #f5f4fa;
+    --color-background: #ECECEC;
+    --color-hero: orange;
+}
+
+body {background-color: var(--color-background);
+    color: limegreen;
+    font-family: cursive;}
+.button {
+    width: 100px;
+    height: 40px;
+    font-family: cursive;
+    flex-shrink: 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.5px; /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.logo-style {
+    text-decoration : none;
+    color: var(--color-text-logo);
+    font-family: cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.78px;}
+.logo-color {color: var(--color-logo);}
+
+.nav-a {list-style: none;}
+.nav-fishnet {
+    text-decoration: none;
+    font-family: cursive;
+    color: var(--color-text-logo);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;}
+.nav-fishnet2:hover, .nav-fishnet2:focus {color: var(--color-hero)}
+.nav-a2 {
+    color: var( --color-logo);
+    font-family: cursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.header-button {
+    color: var(--color-logo)
+}
+.h1-style {
+    color: var(--color-text-logo);
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.36;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.address-fishnet {
+    font-family: inherit;}
